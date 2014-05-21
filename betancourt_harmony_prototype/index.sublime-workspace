@@ -1,0 +1,275 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"te",
+				"text-top"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"ba",
+				"border-image"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/index.html",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/sublime/emmet.html",
+		"/Users/hb/Downloads/automod-1.0-1.2/README.md",
+		"/Users/hb/Documents/Websites/claremont/students/girls/atlanta/atlanta.html",
+		"/Users/hb/Documents/Websites/ComicShop/comics.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/index.css",
+		"/Users/hb/Documents/Websites/ComicShop/css/collectibles.css",
+		"/Users/hb/Documents/Websites/ComicShop/collectibles.html",
+		"/Users/hb/Documents/Websites/ComicShop/games.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/constant.css",
+		"/Users/hb/Documents/Websites/ComicShop/css/comic.css",
+		"/Users/hb/Documents/Websites/ComicShop/css/about.css",
+		"/Users/hb/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/hb/Documents/Websites/ComicShop/form.html",
+		"/Users/hb/Documents/Websites/ComicShop/index.html",
+		"/Users/hb/Documents/Websites/ComicShop/thankyou.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/form.css",
+		"/Users/hb/Documents/Websites/ComicShop/about.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/games.css",
+		"/Users/hb/Documents/Websites/ComicShop/images/homebutton",
+		"/Users/hb/Documents/Websites/ComicShop/core.css",
+		"/Users/hb/Documents/Websites/ComicShop/back.png",
+		"/Users/hb/Documents/Websites/ComicShop/games.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"height",
+			"collectibles",
+			"Comics",
+			"images",
+			"card2.png",
+			"cards.png"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"comics",
+			"../images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

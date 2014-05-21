@@ -1,0 +1,210 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Search for books about the end of the world, create and customize book lists, and post your own reviews." />
+    <title>Acme Apocalypse Search</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <script src="../js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div id="wrapper" class="row large-12 columns large-centered">
+      <div class="row"> <!-- Header Row For All Pages-->
+        <header class="large-12 small-12 columns">
+          <div> <!-- Logo -->
+            <a href="../index.html" id="logo"><img src="../img/logo.png" alt="Site Logo">Apocalyptic Book Search<span>by Acme Interactive</span></a>
+          </div>
+          <div> <!-- Search Bar -->
+              <input type="text" name="search" id="search" placeholder="Search Titles, Authors, and Keywords">
+              <input type="submit" value="" id="submitSearch" onClick="forceSearch()">
+          </div>
+          <div>
+            <a href="#" data-dropdown="userDrop" data-options="align:left" >ImMember1</a>
+            <ul id="userDrop" data-dropdown-content class="f-dropdown small">
+              <li><a href="../user/bookShelves.html">My Bookshelves</a></li>
+              <li><a href="#">My Reviews</a></li>
+              <li><a href="#">My Profile</a></li>
+              <li><a href="#">Log Out</a></li>
+            </ul>   
+          </div>        
+        </header>
+      </div> <!-- Header End -->
+      <div class="row bookHeading" data-magellan-expadition="fixed"><!-- Book Heading -->
+        <div class="medium-9 columns">
+          <a href="#" class="bookTitle">Autumn</a>
+          <p>By: <a href="#" class="bookAuthor">David Moody</a></p>
+        </div>
+        <div class="medium-3 buttonHold columns">
+            <a href="#" class="button share">
+              <span class="hide">Share</span>
+              <img src="../img/buttons/share.png" alt="Share" />
+            </a>
+            <a href="#" class="button shelve">
+              <span class="invisible">Shelve</span>
+              <img src="../img/buttons/bookshelf.png" alt="Shelve" />
+            </a>
+        </div>
+      </div> <!-- Book Heading-->
+      <div class="row"> <!-- Book Details -->
+        <div class="medium-2 small-12 columns"> <!-- Sidebar Info -->
+          <img src="../img/books/autumn.jpg" class="medium-12 small-4" alt="Autumn Bookcover" />
+          <div class="starContain medium-12 small-7 text-center">
+            <a href="#" class="star starGold"></a>
+            <a href="#" class="star starGold"></a>
+            <a href="#" class="star starGold"></a>
+            <a href="#" class="star starGold"></a>
+            <a href="#" class="star starGold"></a>
+          </div>
+          <table class="medium-2 columns priceTable">
+            <tr>
+              <td class="medium-6">Paperback:</td>
+              <td> <a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X">$13.49 </a> </td>
+            </tr>
+            <tr>
+              <td class="medium-6">Hardcover:</td>
+              <td><a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X">$8.66</a></td>
+            </tr>
+            <tr>
+              <td class="medium-6">E-book:</td>
+              <td><a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X">$8.89</a></td>
+            </tr>
+          </table>
+        </div>
+        <div class="medium-10 columns"><!-- Book description/reviews -->
+          <div class="medium-12 columns bookDescrip"><!-- Description -->
+            <p>A bastard hybrid of War of the Worlds and Night of the Living Dead, Autumn chronicles the struggle of a small group of survivors forced to contend with a world torn apart by a deadly disease. After 99% of the population of the planet is killed in less than 24 hours, for the very few who have managed to stay alive, things are about to get much worse. Animated by "phase two" of some unknown contagion, the dead 
+            <a href="#" class="readMore hide">Read More </a> 
+              <span class="readMoreText">
+              begin to rise. At first slow, blind, dumb and lumbering, quickly the bodies regain their most basic senses and abilities... sight, hearing, locomotion... As well as the instinct toward aggression and violence. Held back only by the restraints of their rapidly decomposing flesh, the dead seem to have only one single goal - to lumber forth and destroy the sole remaining attraction in the silent, lifeless world: those who have survived the plague, who now find themselves outnumbered 1,000,000 to 1...
+              <br/><br/>
+              Without ever using the 'Z' word, Autumn offers a new perspective on the traditional zombie story. There's no flesh eating, no fast-moving corpses, no gore for gore's sake. Combining the atmosphere and tone of George Romero's classic living dead films with the attitude and awareness of 28 Days (and Weeks) later, this horrifying and suspenseful novel is filled with relentless cold, dark fear.
+              <a href="#" class="readLess hide">Less</a>
+              </span></p>
+            <p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X">Amazon</a></p>
+          </div><!-- End Descrip -->
+          <div class="medium-12 columns bookReviews"><!-- Reviews -->
+            <h3 class="text-center"><span id="reviewNumber">3</span> Book Reviews</h3>
+                <div class="medium-12 columns review" id="r1"> <!-- Review Start -->
+                  <div class="medium-12 columns" data-equalizer> <!--- Review Heading -->
+                      <div class="medium-6 columns" data-equalizer-watch>
+                        <h3>Horror At It's Best</h3>
+                      </div>
+                      <div class="medium-3 small-6 columns" data-equalizer-watch>
+                        <p>Nov 20 2011</p>
+                      </div> 
+                      <div class="starContain medium-3 small-6 text-center" data-equalizer-watch>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>  
+                      </div>
+                  </div>
+                  <div class="medium-2 columns">
+                    <img src="../img/avatars/dino.jpg" alt="Member Avatar"/> 
+                    <a href="#" class="memberName medium-12 small-6 columns text-center">EndingTimes74</a>   
+                  </div> 
+                  <div class="medium-10 columns reviewText">
+                    <p>Yes, it's slow to those who just want blood and gore with no substance(Um, there's movies for that). But for those who want a slow build up with suspense and plot, this is the shiznit. I've read ALL the books in the series so far and it only gets better. Each time you think
+                    <a href="#" class="readMore hide">Read More </a> 
+                      <span class="readMoreText">
+                      what next? Moody GIVES you a what next. There's 5 books, of COURSE they're not all going to die in the first 100 pages, HELLO? Yes, some of the people are whiners but if some reviewers would have stuck it out, there's some very "nice" things in store for most of them, and who's to say only nice, polite, lovable people would survive something like this? There's a story for a dimwit....5 nice people survive a zombie disaster and have tea every day while fighting the hordes. Each book adds and subtracts characters, you're not really following a A-B-C story here. Anyhoo, I like the book and the series. 2 thumbs up and 8 fingers to boot. MORE, MOODY, MORE!
+                      <a href="#" class="readLess hide">Less</a></span></p>
+                    <p>                   
+                  </div> 
+                  <div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+                  </div>  
+                </div> <!-- End Review -->
+                <div class="medium-12 columns review" id="r2"> <!-- Review Start -->
+                  <div class="medium-12 columns" data-equalizer> <!--- Review Heading -->
+                      <div class="medium-6 columns" data-equalizer-watch>
+                        <h3>A Book About People</h3>
+                      </div>
+                      <div class="medium-3 small-6 columns" data-equalizer-watch>
+                        <p>Sep 4 2013</p>
+                      </div> 
+                      <div class="starContain medium-3 small-6 text-center" data-equalizer-watch>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>  
+                      </div>
+                  </div>
+                  <div class="medium-2 columns">
+                    <img src="../img/avatars/grid.jpg" alt="Member Avatar"/> 
+                    <a href="#" class="memberName medium-12 small-6 columns text-center">CMeRead</a>   
+                  </div> 
+                  <div class="medium-10 columns reviewText">
+                    <p>If you had in view when you got this book or if you got it just because you heard that is a zombie story, then you should know that you'll not find "brain eaters" or something like "Return of Living Dead". This book is about people. About living people who still have 
+                    <a href="#" class="readMore hide">Read More </a> 
+                      <span class="readMoreText">
+                      feelings, emotions, passions and dramas. Moody, like he accustomed us, (look at the "Hater"), steps abruptly into action, without too many descriptions and without wasting time. The explanation of the pandemic or apocalypse (as you prefer) is left to the reader's choice.
+                      <br/><br/>
+                      The characters are suddenly pulled from the daily routine and transported into a world of death (of the humans, not of the animals), and the few survivors who are gathering together (you'll see by yourself how) are witnessing with horror to the metamorphosis of the majority of the corpses which infest the city. The living-deads, as I said, do not move too fast and they do not rise with the instant hunger for human flesh. They are used by the author to mark the tension of those who survive.
+                      <br/><br/>
+                      The three main characters (Carl, Emma and Michael), launch themselves into a race of survival, but not by shooting in all directions, but trying to restore the most elementary conditions of civilization which has disappeared, like: toilet, electricity and basic daily food. Carl is torn apart by the loss of his wife and daughter, and Emma and Michael look for each other, live together without developing a romantic relation but one based on compassion and emotional support. They are not prepaired, they are not heroes, but common people who difficultly manage to survive the conditions that fate has imposed onto them.
+                      <br/><br/>
+                      The end is neither Hollywood like, nor tragic. The key word is hope, hope of survival, hope of the future.
+                      <br/><br/>
+                      I recommend reading this book not for the walking monsters, but for the basic human feelings of the characters that are found in each of us and which, due to daily struggles, we do not let unfold as much we should.
+                      <br/><br/>
+                      Read it and learn again to listen and cherish the one next to you.
+                      <a href="#" class="readLess hide">Less</a></span></p>
+                    <p>                   
+                  </div> 
+                  <div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+                  </div>  
+                </div> <!-- End Review -->
+                <div class="medium-12 columns review" id="r3"> <!-- Review Start -->
+                  <div class="medium-12 columns" data-equalizer> <!--- Review Heading -->
+                      <div class="medium-6 columns" data-equalizer-watch>
+                        <h3>Absolutely Top Flight</h3>
+                      </div>
+                      <div class="medium-3 small-6 columns" data-equalizer-watch>
+                        <p>Jul 28 2013</p>
+                      </div> 
+                      <div class="starContain medium-3 small-6 text-center" data-equalizer-watch>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star starGold"></a>
+                        <a href="#" class="star"></a>  
+                      </div>
+                  </div>
+                  <div class="medium-2 columns">
+                    <img src="../img/avatars/owl.jpg" alt="Member Avatar"/> 
+                    <a href="#" class="memberName medium-12 small-6 columns text-center">HootieWho</a>   
+                  </div> 
+                  <div class="medium-10 columns reviewText">
+                    <p>Autumn is the first of a five book series. You will want to read them in order, and you will want them all. WARNING, do not read these while eating, the descriptions of the walking dead are graphic, and extremely well-rounded. There are a lot of similarities between this and other 
+                    <a href="#" class="readMore hide">Read More </a> 
+                      <span class="readMoreText">
+                       excellent zombie apocalypse books, but with one big difference. The zombies are not attacking, nor trying to eat the living. A bite from a zombie is not contageous. Only one person actually gets bitten, (Webb in book 3), and he asks for it. I never thought I could feel pity for a zombie, but I do for these, especially after reading book 5. David Moody does not use the word "zombie" at all, but the walking dead are zombies in my opinion. If you are a zombie fan, you definitely want this book, and its four sequels.
+                      <a href="#" class="readLess hide">Less</a></span></p>
+                    <p>                   
+                  </div> 
+                  <div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+                  </div>  
+                </div> <!-- End Review -->
+          </div><!-- End Reviews -->
+        </div> <!-- End Book Description/Review --> 
+      </div><!-- End Book Details -->
+    </div><!-- End Wrapper -->  
+
+    <footer class="row large-12  columns large-centered">
+      <p>Created for WDD 2014&copy;</p>
+      <p>Acme Interactive does not have ownership of the publications listed, or the front cover images of books displayed. Reviews and information from <a href="http://www.amazon.com/">Amazon</a></p>
+    </footer>
+
+
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="../js/additional.js"></script>
+  </body>
+</html>

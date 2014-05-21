@@ -1,0 +1,128 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Search for books about the end of the world, create and customize book lists, and post your own reviews." />
+    <title>Acme Apocalypse Search</title>
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <script src="../js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <div id="wrapper" class="row large-12 columns large-centered">
+      <div class="row"> <!-- Header Row For All Pages-->
+        <header class="large-12 small-12 columns">
+          <div> <!-- Logo -->
+            <a href="../index.html" id="logo"><img src="../img/logo.png" alt="Site Logo">Apocalyptic Book Search<span>by Acme Interactive</span></a>
+          </div>
+          <div> <!-- Search Bar -->
+              <input type="text" name="search" id="search" placeholder="Search Titles, Authors, and Keywords">
+              <input type="submit" value="" id="submitSearch" onClick="forceSearch()">
+          </div>
+          <div>
+            <a href="#" data-dropdown="userDrop" data-options="align:left" >ImMember1</a>
+            <ul id="userDrop" data-dropdown-content class="f-dropdown small">
+              <li><a href="../user/bookShelves.html">My Bookshelves</a></li>
+              <li><a href="#">My Reviews</a></li>
+              <li><a href="#">My Profile</a></li>
+              <li><a href="#">Log Out</a></li>
+            </ul>   
+          </div>        
+        </header>
+      </div> <!-- Header End -->
+      <div class="row ucpHead"> <!-- UCP Heading Row -->
+        	<h1 class="text-center">User Control Panel</h1>
+        	<h3 class="text-center">My Bookshelves</h3>  
+        	<div class="small-10 columns small-offset-1 end bottomBorder"></div> <!-- Keep for bottom border, until better solution found -->          	 
+      </div> <!-- UCP Heading -->
+      <div class="row ucpLists"><!-- Book Shelves -->
+      	<div class="large-12 small-12 columns"> <!-- New List -->
+          <div class="row listBar"> <!-- Title -->
+            <a href="#" class="large-9 small-9 columns"> <h3>To Read</h3></a>
+            <div class="large-3 small-3 columns">
+              <a href=# class="cog">Edit Settings</a>
+            </div>             
+          </div>
+          <div class="scrollList"> 
+            <div id="bl1">
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/outpost_thumb.jpg" alt="Outpost" /></a>
+  	          </article>
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/after_thumb.jpg" alt="After" /></a>
+  	          </article>
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/darkinside_thumb.jpg" alt="Dark Inside" /></a>
+  	          </article>
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/wwz_thumb.jpg" alt="WWZ" /></a>
+  	          </article>
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/earthabides_thumb.jpg" alt="Earth Abides" /></a>
+  	          </article>
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/dayofthetriffids_thumb.jpg" alt="Day Of The Triffids" /></a>
+  	          </article>
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/howistartedtheapocalypse_thumb.jpg" alt="How I Started The Apocalypse" /></a>
+  	          </article>
+  	          <article class="bookLink">
+  	            <a href="#"><img src="../img/books/islandsattheendoftheworld_thumb.jpg" alt="Islands At The End of The World" /></a>
+  	          </article>
+            </div>
+        	</div>
+        </div> <!-- End List -->
+        <div class="large-12 small-12 columns"> <!-- New List -->
+          <div class="row listBar"> <!-- Title -->
+            <a href="#" class="large-9 small-9 columns"> <h3>Favorite Zombie Books</h3></a>
+            <div class="large-3 small-3 columns">
+              <a href=# class="cog">Edit Settings</a>
+            </div>             
+          </div>
+          <div class="scrollList">
+            <div id="bl2">
+              <article class="bookLink">
+                <a href="#"><img src="../img/books/autumn_thumb.jpg" alt="Autumn" /></a>
+              </article>
+              <article class="bookLink">
+                <a href="#"><img src="../img/books/zombieautopsies_thumb.jpg" alt="The Zombie Autopsies" /></a>
+              </article>
+              <article class="bookLink">
+                <a href="#"><img src="../img/books/plaguezone_thumb.jpg" alt="Plague Zone" /></a>
+              </article>
+              <article class="bookLink">
+                <a href="#"><img src="../img/books/darlingsofdecay_thumb.jpg" alt="Darlings of Decay" /></a>
+              </article>
+              <article class="bookLink">
+                <a href="#"><img src="../img/books/zombieattack_thumb.jpg" alt="Zombie Attack" /></a>
+              </article>
+              <article class="bookLink">
+                <a href="#"><img src="../img/books/wwz_thumb.jpg" alt="WWZ" /></a>
+              </article>
+              <article class="bookLink">
+                <a href="#"><img src="../img/books/apocalypsez_thumb.jpg" alt="Apocalypsez" /></a>
+              </article>
+            </div>
+          </div>
+        </div> <!-- End List -->
+      
+      </div>
+
+
+  </div><!-- End Wrapper -->  
+
+    <footer class="row large-12  columns large-centered">
+      <p>Created for WDD 2014&copy;</p>
+      <p>Acme Interactive does not have ownership of the publications listed, or the front cover images of books displayed. Reviews and information from <a href="http://www.amazon.com/">Amazon</a></p>
+    </footer>
+
+
+    <script src="../js/vendor/jquery.js"></script>
+    <script src="../js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="../js/additional.js"></script>
+  </body>
+</html>

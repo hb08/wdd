@@ -1,0 +1,644 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Search for books about the end of the world, create and customize book lists, and post your own reviews." />
+    <title>Acme Apocalypse Search</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body id="searchPage">
+    <div id="wrapper" class="row large-12 columns large-centered small-12 ">
+		<div class="row"> <!-- Header Row For All Pages-->
+			<header class="large-12 small-12 columns">
+			  <div> <!-- Logo -->
+				<a href="index.html" id="logo"><img src="img/logo.png" alt="Site Logo">Apocalyptic Book Search<span>by Acme Interactive</span></a>
+			  </div>
+			  <div> <!-- Search Bar -->
+				  <input type="text" name="search" id="search" placeholder="Search Titles, Authors, and Keywords">
+				  <input type="submit" value="" id="submitSearch" onClick="forceSearch()">
+			  </div>
+			  <div>
+				<a href="#" data-reveal-id="signIn">Sign Up | Sign In</a> 
+			  </div>             
+			</header>
+		</div> <!-- End Header -->
+		<div class="row searchHead"> <!-- Search heading -->
+			<div class="small-12 columns">
+				<div class="small-6 medium-3 columns">
+					<a href="#" id="filter"></a>
+				</div>
+				<div class="small-12 medium-6 columns">
+					<h3 class="text-center"><span id="searchResults">2037</span> Results for <span id="searchTerm">Zombie</span></h3>						
+				</div>
+				<div class="small-6 medium-3 columns">
+					<a href="#" class="right" id="toggleResults"></a>
+				</div>
+			</div>
+		</div>
+		<div class="row"><!-- Book Search Results -->
+			<article class="row" id="book1"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="bookDetails/autumn.html" class="bookTitle small-12 medium-6 columns">Autumn</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+					</div>
+					<div class="author small-6 medium-3 columns text-right">
+						<p>By <a href="#" class="authName">David Moody</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/autumn.jpg" alt="Autumn by David Moody" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>A bastard hybrid of War of the Worlds and Night of the Living Dead, Autumn chronicles the struggle of a small group of survivors forced to contend with a world torn apart by a deadly disease. After 99% of the population of the planet is killed in less than 24 hours, for the very few who have managed to stay alive, things are about to get much worse. Animated by "phase two" of some unknown contagion, the dead 
+							<a href="#" class="readMore hide">Read More </a> 
+							<span class="readMoreText">
+							begin to rise. At first slow, blind, dumb and lumbering, quickly the bodies regain their most basic senses and abilities... sight, hearing, locomotion... As well as the instinct toward aggression and violence. Held back only by the restraints of their rapidly decomposing flesh, the dead seem to have only one single goal - to lumber forth and destroy the sole remaining attraction in the silent, lifeless world: those who have survived the plague, who now find themselves outnumbered 1,000,000 to 1...
+							<br/><br/>
+							Without ever using the 'Z' word, Autumn offers a new perspective on the traditional zombie story. There's no flesh eating, no fast-moving corpses, no gore for gore's sake. Combining the atmosphere and tone of George Romero's classic living dead films with the attitude and awareness of 28 Days (and Weeks) later, this horrifying and suspenseful novel is filled with relentless cold, dark fear.
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X" class="price small-4 columns text-center">$13.49</a>								
+									<a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X" class="price small-4 columns text-center">$8.66</a>
+									<a href="http://www.amazon.com/Autumn-David-Moody/dp/031256998X" class="price small-4 columns text-center">$8.89</a>
+								</div>
+							</div>
+							<div class="shelveMe small-6 medium-3  columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 small-6 columns text-center">
+					<a href="bookDetails/autumn.html" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+			<article class="row" id="book2"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="#" class="bookTitle small-12 medium-6 columns">World War Z</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
+					</div>
+					<div class="author small-6 medium-3 columns text-right">
+						<p>By <a href="#" class="authName">Max Brooks</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/wwz.jpg" alt="World War Z by Max Brooks" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>The Zombie War came unthinkably close to eradicating humanity. Max Brooks, driven by the urgency of preserving the acid-etched first-hand experiences of the survivors from those apocalyptic years, traveled across the United States of America and throughout the world, from decimated cities that once teemed with upwards of thirty million souls to the most remote and inhospitable areas of the planet.
+							<a href="#" class="readMore hide"> Read More </a> 
+							<span class="readMoreText">
+							He recorded the testimony of men, women, and sometimes children who came face-to-face with the living, or at least the undead, hell of that dreadful time. World War Z is the result. Never before have we had access to a document that so powerfully conveys the depth of fear and horror, and also the ineradicable spirit of resistance, that gripped human society through the plague years.<br/><br/>
+							Ranging from the now infamous village of New Dachang in the United Federation of China, where the epidemiological trail began with the twelve-year-old Patient Zero, to the unnamed northern forests where untold numbers sought a terrible and temporary refuge in the cold, to the United States of Southern Africa, where the Redeker Plan provided hope for humanity at an unspeakable price, to the west-of-the-Rockies redoubt where the North American tide finally started to turn, this invaluable chronicle reflects the full scope and duration of the Zombie War.
+							<br/><br/>
+							Most of all, the book captures with haunting immediacy the human dimension of this epochal event. Facing the often raw and vivid nature of these personal accounts requires a degree of courage on the part of the reader, but the effort is invaluable because, as Mr. Brooks says in his introduction, “By excluding the human factor, aren’t we risking the kind of personal detachment from history that may, heaven forbid, lead us one day to repeat it? And in the end, isn’t the human factor the only true difference between us and the enemy we now refer to as ‘the living dead’?”
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/World-War-Oral-History-Zombie/dp/0307346617">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/World-War-Oral-History-Zombie/dp/0307346617" class="price small-4 columns text-center">$11.66</a>						
+									<a href="http://www.amazon.com/World-War-Oral-History-Zombie/dp/0307346617" class="price small-4 columns text-center">$19.95</a>
+									<a href="http://www.amazon.com/World-War-Oral-History-Zombie/dp/0307346617" class="price small-4 columns text-center">$9.99</a>
+								</div>
+							</div>
+							<div class="shelveMe small-12 medium-3  columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 columns text-center">
+					<a href="#" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+			<article class="row" id="book3"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="#" class="bookTitle small-12 medium-6 columns">Apocalypse Z</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
+					</div>
+					<div class="author small-6 medium-3 columns text-right">
+						<p>By <a href="#" class="authName">Manel Loureiro</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/apocalypsez.jpg" alt="Apocalypse Z by Manel Loureiro" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>
+							The dead rise…
+							A mysterious incident in Russia, a blip buried in the news—it’s the only warning humanity receives that civilization will soon be destroyed by a single, voracious virus that creates monsters of men.
+							<br/><br/>
+							Humanity falls…	
+							<br/>
+							<a href="#" class="readMore hide"> Read More </a> 
+							<span class="readMoreText">
+							A lawyer, still grieving over the death of his young wife, begins to write as a form of therapy. Bur he never expected that his anonymous blog would ultimately record humanity’s last days.
+							<br/><br/>
+							The end of the world has begun…
+							<br/><br/>
+							Governments scramble to stop the zombie virus, people panic, so-called “Safe Havens” are established, the world erupts into chaos; soon it’s every man, woman, and child for themselves. Armed only with makeshift weapons and the will to live, a lone survivor will give mankind one last chance against…
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/Apocalypse-Z-Beginning-Manel-Loureiro-ebook/dp/B0089LQJ3E">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/Apocalypse-Z-Beginning-Manel-Loureiro-ebook/dp/B0089LQJ3E" class="price small-4 columns text-center">$10.99</a>						
+									<a href="http://www.amazon.com/Apocalypse-Z-Beginning-Manel-Loureiro-ebook/dp/B0089LQJ3E" class="price small-4 columns text-center">&#45;&#45;</a>
+									<a href="http://www.amazon.com/Apocalypse-Z-Beginning-Manel-Loureiro-ebook/dp/B0089LQJ3E" class="price small-4 columns text-center">$4.99</a>
+								</div>
+							</div>
+							<div class="shelveMe small-12 medium-3  columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 columns text-center">
+					<a href="#" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+			<article class="row" id="book4"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="#" class="bookTitle small-12 medium-6 columns">Darlings of Decay</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
+					</div>
+					<div class="author small-6 medium-3 columns text-right">
+						<p>By <a href="#" class="authName">Shannon Mayer</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/darlingsofdecay.jpg" alt="Darlings of Decay by Shannon Mayer" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>
+							Zombie stories from thirty-two of your favorite female authors in this Bestselling Zombie Anthology
+							<br/><br/>
+							With over 325,000 words and featuring some of Amazon's Best Selling Female Authors of Horror, this is certainly not your typical anthology book! 
+							<br/>
+							<a href="#" class="readMore hide"> Read More </a> 
+							<span class="readMoreText">
+							Sit back as your favorite authors of zombie lit take you on a wild, horrifying ride that will leave you breathless. Come and meet the women who love to entertain you with their own unique versions of the zombie apocalypse.
+							<br/><br/>
+							Featuring Stories and excerpts from:
+							<br/><br/>
+							Tamara Rose Blodgett
+							<br/>
+							Vanessa Booke
+							<br/>
+							Chantal Boudreau
+							<br/>
+							Laura Bretz
+							<br/>
+							Tonia Brown
+							<br/>
+							Catt Dahman
+							<br/>
+							Mia Darien
+							<br/>
+							CM Doporto
+							<br/>
+							Jacqueline Druga
+							<br/>
+							Dana Fredsti
+							<br/>
+							and more!
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/Darlings-Decay-Shannon-Mayer-ebook/dp/B00DQ1P3S4">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/Darlings-Decay-Shannon-Mayer-ebook/dp/B00DQ1P3S4" class="price small-4 columns text-center">&#45;&#45;</a>						
+									<a href="http://www.amazon.com/Darlings-Decay-Shannon-Mayer-ebook/dp/B00DQ1P3S4" class="price small-4 columns text-center">&#45;&#45;</a>
+									<a href="http://www.amazon.com/Darlings-Decay-Shannon-Mayer-ebook/dp/B00DQ1P3S4" class="price small-4 columns text-center">$9.99</a>
+								</div>
+							</div>
+							<div class="shelveMe small-12 medium-3  columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 columns text-center">
+					<a href="#" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+			<article class="row" id="book5"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="#" class="bookTitle small-12 medium-6 columns">How I Started The Apocalypse</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
+					</div>
+					<div class="author small-6 medium-3 columns text-right">
+						<p>By <a href="#" class="authName">Brian Pinkerton</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/howistartedtheapocalypse.jpg" alt="How I Started The Apocalypse by Brian Pinkerton" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>
+							At night, they come for him.
+							<br/><br/>
+							They surround his house. They beat down his door. They burst through the windows. They attack him in the dark.
+							<br/>							
+							<a href="#" class="readMore hide"> Read More </a> 
+							<span class="readMoreText">
+							<br/>
+							But Chaz Singleton is not going down without a fight.
+							<br/><br/>
+							Chaz is a lone zombie battling for survival against a hostile humanity. He holds the fate of the world in his hands, whether he likes it or not.
+							<br/><br/>
+							He is dead. He is angry. He is contagious. And he is hungry.
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/STARTED-APOCALYPSE-Pinkerton-Author-Paperback/dp/B00IEVQ0VA">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/STARTED-APOCALYPSE-Pinkerton-Author-Paperback/dp/B00IEVQ0VA" class="price small-4 columns text-center">$15.98</a>						
+									<a href="http://www.amazon.com/STARTED-APOCALYPSE-Pinkerton-Author-Paperback/dp/B00IEVQ0VA" class="price small-4 columns text-center">&#45;&#45;</a>
+									<a href="http://www.amazon.com/STARTED-APOCALYPSE-Pinkerton-Author-Paperback/dp/B00IEVQ0VA" class="price small-4 columns text-center">&#45;&#45;</a>
+								</div>
+							</div>
+							<div class="shelveMe small-12 medium-3  columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 columns text-center">
+					<a href="#" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+			<article class="row" id="book6"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="#" class="bookTitle small-12 medium-6 columns">Plague Zone</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
+					</div>
+					<div class="author small-6 medium-3 columns text-right">
+						<p>By <a href="#" class="authName">David Wellington</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/plaguezone.jpg" alt="Plague Zone by David Wellignton" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>
+							There are a million zombies in the Seattle Plague Zone. Tim needs to find and kill just one. In the midst of world-wide apocalypse, there are still some things a man has to do. Like get vengeance for his lost family.
+							<br/>							
+							<a href="#" class="readMore hide"> Read More </a> 
+							<span class="readMoreText">
+							From the author of the acclaimed MONSTER ISLAND series comes a whole new zombie tale--full of gore and action and the quick-paced suspense David Wellington's readers have come to expect.
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/Plague-Zone-David-Wellington-ebook/dp/B009HNKE3O">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/Plague-Zone-David-Wellington-ebook/dp/B009HNKE3O" class="price small-4 columns text-center">&#45;&#45;</a>						
+									<a href="http://www.amazon.com/Plague-Zone-David-Wellington-ebook/dp/B009HNKE3O" class="price small-4 columns text-center">&#45;&#45;</a>
+									<a href="http://www.amazon.com/Plague-Zone-David-Wellington-ebook/dp/B009HNKE3O" class="price small-4 columns text-center">$3.99</a>
+								</div>
+							</div>
+							<div class="shelveMe small-12 medium-3 columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 columns text-center">
+					<a href="#" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+			<article class="row" id="book7"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="#" class="bookTitle small-12 medium-6 columns">Zombie Attack: Rise Of The Horde</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
+					</div>
+					<div class="author small-3 columns text-right">
+						<p>By <a href="#" class="authName">Devan Sagliani</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/zombieattack.jpg" alt="Zombie Attack: Rise Of The Horde by Devan Sagliani" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>
+							When 16 year old Xander's older brother Moto left him at Vandenberg Airforce Base he only had one request - don't leave no matter what. But there was no way he could have known that one day zombies would gather into groups big enough to knock down walls and take out entire buildings full of people. 
+							<a href="#" class="readMore hide"> Read More </a> 
+							<span class="readMoreText">
+							That was before the rise of the horde! 
+							<br/><br/>
+							Now Xander is on the run, fleeing south to Port Hueneme to locate his brother with nothing but his martial arts training and the katana blade left to him. Along the way he'll have to fight for his life against other survivors, neo-Nazi's, outlaw bikers, gang bangers, cannibals, cult members, and a seemingly endless sea of flesh hungry zombies. But Xander is far from alone. Traveling with him are Benji, a 12 year old comic book geek, and Felicity Jane, a childhood celebrity with wild mood swings. Will they make it together in one piece to the safe zone or will they become the next meal for a hungry horde of wild zombies? Zombie Attack! Rise of the Horde is filled with pulse pounding undead action from the very first chapter up until the bitter sweet end. From rock stars and celebrities to false prophets and miracle workers, this book has it all! The story takes off like a bullet and doesn't slow down until the last sentence. You won't be able to put it down!
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/Zombie-Attack-Rise-Horde-1/dp/1618681168">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/Zombie-Attack-Rise-Horde-1/dp/1618681168" class="price small-4 columns text-center">$14.56</a>						
+									<a href="http://www.amazon.com/Zombie-Attack-Rise-Horde-1/dp/1618681168" class="price small-4 columns text-center">&#45;&#45;</a>
+									<a href="http://www.amazon.com/Zombie-Attack-Rise-Horde-1/dp/1618681168" class="price small-4 columns text-center">$5.99</a>
+								</div>
+							</div>
+							<div class="shelveMe small-12 medium-3  columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 columns text-center">
+					<a href="#" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+			<article class="row" id="book8"> <!-- Book Start-->
+				<div class="large-12 columns"><!-- Book Header -->
+					<a href="#" class="bookTitle small-12 medium-6 columns">The Zombie Autopsies</a>
+					<div class="starContain small-6 medium-3 columns text-center">
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star starGold"></a>
+						<a href="#" class="star"></a>
+						<a href="#" class="star"></a>
+					</div>
+					<div class="author small-3 columns text-right">
+						<p>By <a href="#" class="authName">Steven C Schlozman</a></p> 
+					</div>
+				</div>
+				<div class="large-12 columns">
+					<div class="bookCover small-2 columns">
+						<a href="#"><img src="img/books/zombieautopsies.jpg" alt="The Zombie Autopsies by Steven C Schlozman" /></a>
+					</div>
+					<div class="bookDescrip small-10 columns">
+						<div class="small-12 columns bookDetails">
+							<p>
+							With the recent successes of films like Zombieland and the TV series The Walking Dead, zombies have never been trendier. In this fictional "secret notebook" describing a zombie research project, Harvard-trained physician and avowed horror fan Schlozman capitalizes on the undead craze with an inventively framed apocalyptic tale embellished with black humor. 
+							<br/>
+							<a href="#" class="readMore hide"> Read More </a> 
+							<span class="readMoreText">
+							<br/>
+							Embedded within the recovered journals of zombie expert Dr. Stanley Blum is the story of a viral research team quarantined on a remote island with specimens from a future worldwide plague dubbed Ataxic Neurodegenerative Satiety Deficiency Disorder, otherwise known as zombiism. Alas, the team inevitably succumbs to the illness themselves but not without, apparently, finding the cure. Hence, the World Health Organization's urgent "release" of the notebooks, complete with illustrations of zombie anatomy and graphic descriptions of toothsome mayhem. While medical professionals may reap a few laughs from Schlozman's meticulous faux scientific research, the target audience is comprised of horror fans and zombie enthusiasts.
+							<a href="#" class="readLess hide">Less</a></span></p>
+							<p class="reviewFrom text-right">Review From <a href="http://www.amazon.com/Zombie-Autopsies-Secret-Notebooks-Apocalypse/dp/B007K4G1J8">Amazon</a></p>
+						</div>
+						<div class="small-12 columns bookInfo">
+							<div class="pricingFormats small-12 medium-9 columns">
+								<div class="row">
+									<p class="small-4 columns text-center">Paperback</p>
+									<p class="small-4 columns text-center">Hardcover</p>
+									<p class="small-4 columns text-center">E-Book</p>									
+								</div>
+								<div class="row">	
+									<a href="http://www.amazon.com/Zombie-Autopsies-Secret-Notebooks-Apocalypse/dp/B007K4G1J8" class="price small-4 columns text-center">$14.99</a>						
+									<a href="http://www.amazon.com/Zombie-Autopsies-Secret-Notebooks-Apocalypse/dp/B007K4G1J8" class="price small-4 columns text-center">$8.00</a>
+									<a href="http://www.amazon.com/Zombie-Autopsies-Secret-Notebooks-Apocalypse/dp/B007K4G1J8" class="price small-4 columns text-center">$9.99</a>
+								</div>
+							</div>
+							<div class="shelveMe small-12 medium-3  columns text-right">
+								<a href="#" class="button shelve">
+									<span class="invisible">Shelve</span>
+									<img src="img/buttons/bookshelf.png" alt="Shelve"/>
+								</a>
+							</div>
+						</div> 
+					</div>
+				</div>
+				<div class="large-12 columns text-center">
+					<a href="#" class="button slim">Read Reviews</a>
+				</div>
+				<div class="small-10 columns small-offset-1 end bottomBorder"> <!-- Keep for bottom border, until better solution found -->
+				</div>
+			</article> <!-- Book End -->
+		</div><!-- End Results -->
+    	<div class="pagination-centered"> <!-- Pagination -->
+    		<ul class="pagination"> 
+    			<li class="arrow unavailable"><a href="">&laquo;</a></li> 
+    			<li class="current"><a href="">1</a></li> 
+    			<li><a href="">2</a></li> 
+    			<li><a href="">3</a></li> 
+    			<li><a href="">4</a></li> 
+    			<li class="unavailable"><a href="">&hellip;</a></li> 
+    			<li><a href="">12</a></li> 
+    			<li><a href="">13</a></li> 
+    			<li class="arrow"><a href="">&raquo;</a></li> 
+			</ul> 
+		</div>
+    </div> <!-- End Wrapper -->
+    
+    
+    
+    
+    <footer class="row large-12  columns large-centered">
+      <p>Created for WDD 2014&copy;</p>
+      <p>Acme Interactive does not have ownership of the publications listed, or the front cover images of books displayed.</p>
+    </footer>
+    
+    
+    
+        <!-- Revealed on click of sign in link -->
+    <div id="signIn" class="reveal-modal" data-reveal> 
+      <h2>Log In</h2> 
+        <form data-abide>
+          <div class="row large-4 ">
+            <label for="username">Username
+              <input type="text" placeholder="Username" id="username" name="username" required="required" />
+            </label>
+          </div>
+          <div class="row large-4 ">
+            <label for="password">Password
+              <input type="password" placeholder="Password" id="password" name="password" required="required" />
+            </label>
+          </div>
+          <div class="row large-4 text-center ">
+            <input type="submit" class="button" value="Let Me In!" /> 
+          </div>
+        </form>
+        <div class="row small-12 columns">
+		  <h3>Not a member yet?</h3>
+			<p>You should be! As a member, you can:</p>
+			  <ul>
+				<li>Customize personal bookshelves</li>
+				<li>Post book reviews</li>
+				<li>Set your favorite filters to remember you</li>
+				<li>Customize lists on the home screen</li>
+			  </ul>
+			<p>Convinced? Then <a href="#" data-reveal-id="signUp" >Sign Up!</a></p>
+    	</div>
+    </div>
+
+     <!-- Revealed on click of Sign Up -->
+    <div id="signUp" class="reveal-modal" data-reveal> 
+      <h2>Sign-Up!</h2> 
+        <form data-abide>
+          <div class="row large-4 ">
+            <label for="usernameNew">Username
+              <input type="text" placeholder="Pick a name others can see" name="username" id="usernameNew" required="required" />
+            </label>
+          </div>
+          <div class="row large-4 ">
+            <label for="passwordNew">Password
+              <input type="password" placeholder="Choose a password" name="password" id="passwordNew" required="required" />
+            </label>
+          </div>
+          <div class="row large-4 ">
+            <label for="passwordConf">Confirm Password
+              <input type="password" placeholder="Re-Enter your new password" name="passwordConf"  id="passwordConf" required="required" />
+            </label>
+          </div>
+		  <div class="row large-4 ">
+			<label for="email">E-Mail
+			  <input type="email" placeholder="E-mail for password recovery" name="email"  id="email" required="required" />
+			</label>
+          </div>
+          <div class="row text-center ">          	
+			<label for="optIn">
+				<input type="checkbox"  name="optIn" id="optIn" />
+				I'd like to get notices and site information by e-mail!
+			</label>
+          </div>
+          <div class="row large-4 text-center ">
+            <input type="submit" class="button" value="Sign Me Up!" /> 
+          </div>
+        </form>
+      <div class="row small-12 columns">
+        <h3>Already a member?</h3>
+          <p><a href="#" data-reveal-id="signIn" >Sign In!</a></p>
+      </div>
+    </div> 
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script src="js/additional.js"></script>
+  </body>
+</html>

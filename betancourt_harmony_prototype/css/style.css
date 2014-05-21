@@ -1,0 +1,681 @@
+@import url(http://fonts.googleapis.com/css?family=Patrick+Hand+SC|Comfortaa:400,300,700|Joti+One);
+
+/* Changes to Foundation and CSS for this site in general 
+
+Table Of Contents
+	Reset
+	Global
+		Universal Header
+		Footer
+	Styles
+		Fonts - Family | Color | Size
+		Margins
+		Display
+	Index
+		Genres
+		Booklists
+		Reveal Modals
+	Search Results
+	
+	Media Queries
+
+*/
+/**********************************/
+/************* CSS RESET *************/
+	/* NTS: Keep indented to make it easier to read while styling. Remove when site is functional */
+	/**
+	* html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+	* Richard Clark (http://richclarkdesign.com)
+	* http://cssreset.com
+	*/
+	html, body, div, span, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	abbr, address, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strong, sub, sup, var,
+	b, i,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, figcaption, figure,
+	footer, header, hgroup, menu, nav, section, summary,
+	time, mark, audio, video {
+		margin:0;
+		padding:0;
+		border:0;
+		outline:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+	}
+	body {
+		line-height:1;
+	}
+	article,aside,details,figcaption,figure,
+	footer,header,hgroup,menu,nav,section {
+		display:block;
+	}
+	nav ul {
+		list-style:none;
+	}
+	blockquote, q {
+		quotes:none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content:'';
+		content:none;
+	}
+	a {
+		margin:0;
+		padding:0;
+		font-size:100%;
+		vertical-align:baseline;
+		background:transparent;
+	}
+	/* change colours to suit your needs */
+	ins {
+		background-color:#ff9;
+		color:#000;
+		text-decoration:none;
+	}
+	/* change colours to suit your needs */
+	mark {
+		background-color:#ff9;
+		color:#000;
+		font-style:italic;
+		font-weight:bold;
+	}
+	del {
+		text-decoration: line-through;
+	}
+	abbr[title], dfn[title] {
+		border-bottom:1px dotted;
+		cursor:help;
+	}
+	table {
+		border-collapse:collapse;
+		border-spacing:0;
+	}
+	/* change border colour to suit your needs */
+	hr {
+		display:block;
+		height:1px;
+		border:0;
+		border-top:1px solid #cccccc;
+		margin:1em 0;
+		padding:0;
+	}
+	input, select {
+		vertical-align:middle;
+	}
+
+
+/**********************************/
+/************* GLOBAL *************/
+body {
+	background: url('../img/bg.jpg') repeat;
+}
+#wrapper {
+	background-color: #3D4140; /* Old School */
+	background-color: rgba(0, 0, 0, 0.38);
+	border-radius: 20px;
+	padding-top: 1%;
+}
+ul {
+	list-style-image: url('../img/bullet.png');
+}
+a.cog {
+	background: url('../img/buttons/cog.png');
+	height: 25px;
+	width: 26px;
+	overflow: hidden; /* Needed to hide button text for screen readers*/
+	padding-top: 30px; /* Needed to hide button text for screen readers*/
+	float: right;
+}
+a.cog:hover {
+	background-image: url('../img/buttons/coghover.png');
+}
+a.cog:visited {
+	background-image: url('../img/buttons/cogvisited.png');
+}
+.button {
+	background: #9fff94; /* Old browsers */ /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#9fff94), color-stop(100%,#6aff6f), color-stop(100%,#6aff6f)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #9fff94 0%,#6aff6f 100%,#6aff6f 100%); /* Chrome10+,Safari5.1+ */ /* Opera 12+ */ /* IE10+ */
+	background: -webkit-radial-gradient(center, ellipse, #9fff94 0%, #6aff6f 100%, #6aff6f 100%);
+	background: radial-gradient(ellipse at center,  #9fff94 0%,#6aff6f 100%,#6aff6f 100%); /* W3C */
+	border-radius: 10px;
+	padding: 0.3em 1em;
+}
+.button:hover {
+	background: #dcffcd; /* Old browsers */ /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#9fff94), color-stop(100%,#dcffcd)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #9fff94 0%,#dcffcd 100%); /* Chrome10+,Safari5.1+ */ /* Opera 12+ */ /* IE10+ */
+	background: -webkit-radial-gradient(center, ellipse, #9fff94 0%, #dcffcd 100%);
+	background: radial-gradient(ellipse at center,  #9fff94 0%,#dcffcd 100%); /* W3C */
+}
+.slim {
+	padding: 0 1em;
+}
+.shelve {
+	padding: 0.2em 0.2em 0 0.3em;
+}
+.shelve > span {
+	bottom: 15px;
+ 	left: 5px;
+}
+.share {
+ 	padding: 0.1em 0.2em 0;
+}
+	/************* UNIVERSAL HEADER *************/
+#wrapper > .row:nth-child(1) header {
+	display: table;
+	border-bottom: 1px solid #c0c0c0;
+	padding-bottom: 0;
+}
+#wrapper > .row:nth-child(1) header > div {
+	display: table-cell;
+}
+	/* Logo */
+#wrapper > .row:nth-child(1) header > div:first-child{
+	width: 25%;
+}
+#logo {
+	width: 45%;
+}
+#logo img {
+	height: 48px;
+	width: 48px;
+}
+#logo span {
+	bottom: 7%;
+	left: 25.3em;
+}	
+	/* Search */
+#wrapper > .row:nth-child(1) header > div:nth-child(2) { 
+	top: 5px;
+	width: 13%;
+}
+#wrapper > .row:nth-child(1) header input#search {
+	border: 3px solid #DAD5D5;
+	border-radius: 30px;
+	height: 35px;
+	top: 8px;
+}
+#wrapper #submitSearch {
+	background:transparent url('../img/buttons/searchButton.png');
+	background-size: contain;
+	border: none;
+	cursor: pointer;
+	height: 30px;
+	width: 30px;
+	right: 20.35%;
+	top: 10px;
+}
+	/* Sign in */
+#wrapper > .row:nth-child(1) header div:last-child { 
+	top: 15px;
+	width: 9%;
+}
+
+
+
+/**********************************/
+/************* STYLES *************/
+#filter, #toggleResults, a.cog, #wrapper #submitSearch, .star {
+	background-repeat: no-repeat;
+}
+	/************* FONTS *************/
+	/*** Family ***/
+body {
+	font-family: 'Comfortaa';
+}
+h1, h2, h3, h4, h5, h6, input#search , #logo, .bookTitle, .button {
+	font-family: 'Patrick Hand SC', serif;
+} 
+#logo {
+	font-family: 'Joti One';
+}
+	/*** Color ***/
+body, .reveal-modal label, .priceTable td, .ucpHead h3 {
+	color: #fff;
+}
+a, .bookLists h3, .listBar > a > h3, .f-dropdown li a {
+	color: #44ff00;
+}
+a:hover, .bookLists a:hover h3, .listBar > a:hover > h3, .f-dropdown li a:hover, a:focus {
+	color: #9FFF94;
+}
+a:visited, .bookLists a:visited h3, .listBar > a:visited > h3, .f-dropdown li a:visited {
+	color: #dcffcd;
+}
+input#search {
+	color: #7D7B7B;
+}
+h1, h2, h3, h4, h5, h6 , #logo, .pricingFormats p {
+	color: #F4A147;	
+}
+.button, .button:hover, input#search, a.button, .f-dropdown li:hover a, ul.pagination li.current a {
+	color: #000000;
+}
+	/*** Sizes ***/
+#logo {
+	font-size: 2.2em;
+}
+h1, .bookTitle {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.75em;
+}
+h3, .button {
+	font-size: 1.5em;
+}
+.linkCloud  a  {
+	font-size: 1.3em;
+}
+.bookLists > a {
+	font-size: 1.1em;	
+}
+body, .bookDescrip p, .reviewText p  {
+	font-size: .9em;
+}
+footer p, .bookDetails > .reviewFrom, .memberName, .shelve > span {
+	font-size: .8em;
+}
+#logo span {
+	font-size: 0.4em;
+}
+#wrapper > .row:nth-child(1) header input#search {
+	font-size: 16px;
+}
+#wrapper > .row:nth-child(1) header div:last-child { 
+	font-size: 14px;
+}
+	/*** Text Align - NTS: for text-alignment that changes with screen size ***/ 
+.f-dropdown.open, .review > div:nth-child(1) > div:nth-child(2), .reveal-modal h2, .reveal-modal h3, .reveal-modal p, .bookLists h3, .linkCloud, footer {
+	text-align: center;
+}
+.buttonHold, #logo span, #wrapper > .row:nth-child(1) header div:last-child {
+	text-align: right;
+}	
+	/************* MARGINS *************/
+#wrapper {
+	margin: 2% auto;
+}
+#coa > .left { /* LOGO */
+	margin: 5% 5% 0;
+}
+a.cog {
+	margin: 4% 6% 0 0 ;
+}
+footer p {
+	margin: 0 auto;
+}
+.listBar > p {
+	margin: 0.8em 0 0;
+}
+.bookLink {
+	margin: 0 2.8% 0 0;
+}
+.reveal-modal ul {
+	margin: 0 auto 3%;
+}
+#signIn p:nth-of-type(1) {
+	margin: 1% auto;
+}
+table.priceTable {
+	margin: 0;
+}
+#wrapper > .row:nth-child(2) > .large-4 { /* COA */
+	margin-top: 5%;
+}
+.searchHead h3 {
+	margin-top: 0;	
+}
+.ucpHead .bottomBorder {
+	margin-top: 1%;
+}
+.bookInfo {
+	margin-top: 1em;
+}
+#logo img {
+    margin-right: 1%;
+    vertical-align: text-top;
+}
+.linkCloud  a {
+	margin-right: 2.5em;
+}
+.share {
+ 	margin-right: 5%;
+}
+#wrapper > .row, .bookLists > div {
+	margin-bottom: 3%;	
+}
+h1, h2, h3, h4, h5, h6 , #logo, input#search, .reveal-modal p, .pricingFormats, #wrapper > .bookHeading, .bookHeading > div:first-of-type > p, .review div:nth-child(2) p  {
+	margin-bottom: 0;
+}
+ul li, .bookLists h3, .bookDetails > p:first-of-type {
+	margin-bottom: 1%;
+}
+.reveal-modal label {
+	margin-bottom: 5%;
+}
+.bottomBorder  {
+	margin-bottom: 2%;
+}
+.bookCover img {
+	margin-bottom: 1em;
+}
+.ucpLists > div {
+	margin-bottom: 3%;	
+}
+#coa ul {
+	margin-left: 8%;
+}
+	/************* DISPLAY/POSITION *************/
+a.cog, #filter, #toggleResults, .pricingFormats p, .bottomBorder  {
+	display: block;
+}
+#coa section:last-of-type, .bookLink, .scrollList article, .bookTitle, .starContain, .author, .star   {
+	display: inline-block;
+}
+div, a[data-dropdown], .review > div:first-child > div:nth-child(2) > p, .review > div:first-child > div:nth-child(3) a, #wrapper > .row:nth-child(1) header, #wrapper > .row:nth-child(1) header > div, #wrapper > .row:nth-child(1) header input#search {
+	position: relative;
+}
+.shelve > span, table.priceTable tbody, #logo span, #wrapper #submitSearch {
+	position: absolute;
+}
+
+
+/**********************************/
+/*********** INDEX ***************/
+.linkCloud  a {
+	line-height: 2em;
+}
+	/************* BOOK LISTS *************/
+.bookLists > div > p:first-of-type {
+	vertical-align: bottom;
+}
+.bookLink a > img, .bookCover a > img {
+	border: 2px solid transparent; /* Keep transparent to maintain sizing yet invisible	*/
+}
+.bookLink a:hover > img, .bookCover a:hover > img {
+	border-color: #44ff00; 
+}
+.scrollList {
+	overflow-x: scroll;
+	overflow-y: hidden;	
+}
+	/************* REVEAL MODALS *************/
+dialog, .reveal-modal {
+	background-color: #000;
+}
+.reveal-modal ul {
+	width: 21em;
+}
+
+/****************************************/
+/********* SEARCH RESULTS ***************/
+#filter {
+	background-image: url('../img/buttons/filter.png');
+	height: 31px;
+	width: 101px;
+}
+#filter:hover {
+	background-image: url('../img/buttons/filterhover.png');
+}
+#toggleResults {
+	background-image: url('../img/buttons/toggleLists.png');
+	height: 32px;
+	width: 132px;
+}
+.star {
+	background: url('../img/buttons/starEmpty.png');
+	height: 20px;
+	width: 20px;	
+}
+.starGold{
+	background-image: url('../img/buttons/starGold.png');
+}
+.bookCover img {
+ 	box-shadow: 0 0 9px 0 rgba(129, 254, 0, 0.13);
+ 	width: 120px;
+}
+.bookDescrip p, .bookDescrip span {
+	letter-spacing: 1px;	
+}
+.bottomBorder {
+	background-color: #425432; /* Old Browsers */
+	background-color: rgba(129, 254, 0, 0.13);
+	height: 2px;
+}
+ul.pagination li.current a {
+	background-color: #F4A147;
+}
+ul.pagination li:hover a, ul.pagination li a:focus {
+	background-color: #9fff94 ;
+}
+.bookDetails .button {
+	padding: 0;
+}
+.readMore {
+	white-space: nowrap;
+}
+.invisible {	
+	visibility: hidden;
+}
+
+/****************************************/
+/********** DETAILS PAGE ***************/
+table.priceTable {
+	background: transparent;
+	border: none;
+}
+table.priceTable tr.even, table.priceTable tr.alt, table.priceTable tr:nth-of-type(2n) {
+	background: transparent;
+}
+table.priceTable tbody {
+	left: -0.5em;
+ 	padding: 0;
+}
+.memberName {
+	padding: 0.5em 0 1em;
+}
+.reviewText {
+	padding-bottom: 1em;
+}
+.reviewText .readMore {
+	width: 100%;
+}
+.review > div:first-child > div:nth-child(2) > p, .review > div:first-child > div:nth-child(3) a {
+	top: 0.7em;
+}
+.review > div:nth-child(2) img {
+	border: 1px solid #070707;
+}
+
+/****************************************/
+/********** USER DROPDOWN ***************/
+
+.f-dropdown.open {
+    background: none repeat scroll 0 0 #000000;
+    border-color: #9FFF94;
+}
+.f-dropdown li:hover, .f-dropdown li:focus {
+    background: none repeat scroll 0 0 #9FFF94;
+}
+
+
+/********************************************/
+/************** MEDIA QUERIES ***************/
+/********************************************/
+
+	/********** SMALL ***************/
+@media only screen and (max-width:40em){
+
+/*** Multiple Selectors */
+	#wrapper > .row:nth-child(1) header div:last-child, #wrapper > .row:nth-child(1) header > div:nth-child(2) {
+		top: 0;
+	}
+	.bookLists > div, .ucpLists > div {
+    	margin-bottom: 10%;
+    }
+	
+	/* Font Adjustments */
+	#logo, .listBar a h3 {
+		font-size: 1.5em;
+	}
+	.listBar p {
+		font-size: .75em;
+	}
+	#coa h1 {
+		line-height: 1em;
+	}
+	.pricingFormats .row p {
+ 		font-size: 0.7em;
+	}
+	.bookReviews > h3 {
+    	font-size: 2em;
+	}
+	.review > div:first-of-type > div:nth-child(2) p {
+		font-size: .9em;
+	}
+	.linkCloud a {
+		font-size: 1.1em;
+	}
+	#wrapper > .row:nth-child(1) header div:last-child {
+		font-size: 12px;
+	}
+	
+/*** Position ** */
+	.shelveMe, #wrapper > div:nth-child(3) > article > div:nth-child(3), .searchHead > div > div:last-of-type, .review > div:nth-child(2) img {
+    	position: relative;
+    }
+	
+/*** All The Rest ***/	
+	/* All Pages */
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 5%;
+	}
+	#wrapper > .row:nth-child(1) header > div  {
+		display: block;
+	}
+	#wrapper > .row:nth-child(1) header > div:first-child {
+		width: 100%;
+	}
+	#logo img {
+		height: 30px;
+		width: 30px;
+	}	
+	#logo span {
+		bottom: -2%;
+		left: 23.1em;
+	}
+	#wrapper > .row:nth-child(1) header div:last-child {
+		margin: 15px 0 10px;
+		text-align: center;
+		width: 100%;
+	}
+	#wrapper > .row:nth-child(1) header > div:nth-child(2) {
+		width: 94%;
+    }
+    #wrapper #submitSearch {
+    	right: 1%;
+    } 
+	/* Index */
+	.listBar a h3 {
+		text-align: left;
+	}
+	#coa section:last-of-type {
+		margin-left: 5%;	
+	}
+	
+	#coa .left {
+		width: 38%;
+	}
+	.linkCloud a {
+		margin-right: 1.5em;
+	}
+	/* Search Page */
+	.shelveMe {
+    	top: 1em;
+	}
+	#wrapper > div:nth-child(3) > article > div:nth-child(3) { /* Read Reviews Button positioning */
+	    left: 3em;
+	    top: -3.3em;
+	}
+	#wrapper > div:nth-child(3) > article > div:nth-child(3) a { /* Read Reviews padding adjust */
+    	padding: 0.28em 0.3em;
+	}
+	.searchHead > div > div:last-of-type {
+		top: -5.2em;
+	}
+	.bookTitle {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		height: 1em;
+		width: 100%;
+	}
+	.bookCover { /* Because image is 100%, remove padding and shift left for better sizing */
+		left: 3%;
+		padding: 0; 
+	}	
+	.buttonHold {
+		text-align: center;
+	}
+	.starContain {
+		vertical-align: top;
+	}
+	table.priceTable tbody {
+    	left: 42%;
+    	margin-top: -46%;
+    }	
+	.star {
+    	background-size: contain;
+	}
+	.review > div:nth-child(2) img {
+	    margin-left: 1em;
+	    top: -2.4em;
+	    width: 32%;
+	}
+	.reviewText {
+		margin-top: -2em;
+	}
+	.review .starContain {
+    	left: -50%;
+    	top: -1.3em;
+	}
+	.review .star {
+		width: 1em;
+	}
+	
+  /* UCP */
+	.ucpHead h1 {
+		margin-bottom: 0;
+	}
+}
+
+	/********** MEDIUM ***************/
+@media only screen and (min-width:40.063em) and (max-width: 64em) {
+	#logo {
+		font-size: 1.7em;
+	}
+	#coa section:last-of-type {
+		margin-left: 5%;	
+	}
+	#coa h1 {
+		line-height: 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
+

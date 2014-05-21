@@ -1,0 +1,882 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"zombie",
+				"zombieautopsies.jpg	w:200 h:300"
+			],
+			[
+				"s",
+				"bookshelf.png	w:53 h:31"
+			],
+			[
+				"star",
+				"starGold.png	w:20 h:20"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"l",
+				"logo.png	w:250 h:230"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-repeat"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"ba",
+				"border-image"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"margin-",
+				"margin-top"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bookDetails/autumn.html",
+			"settings":
+			{
+				"buffer_size": 15744,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html class=\"no-js\" lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"description\" content=\"Search for books about the end of the world, create and customize book lists, and post your own reviews.\" />\n    <title>Acme Apocalypse Search</title>\n    <link rel=\"stylesheet\" href=\"../css/foundation.css\" />\n    <script src=\"../js/vendor/modernizr.js\"></script>\n    <link rel=\"stylesheet\" href=\"../css/style.css\">\n  </head>\n  <body>\n    <div id=\"wrapper\" class=\"row large-12 columns large-centered\">\n      <div class=\"row\"> <!-- Header Row For All Pages-->\n        <header class=\"large-12 small-12 columns\">\n          <div> <!-- Logo -->\n            <a href=\"../index.html\" id=\"logo\"><img src=\"../img/logo.png\" alt=\"Site Logo\">Apocalyptic Book Search<span>by Acme Interactive</span></a>\n          </div>\n          <div> <!-- Search Bar -->\n              <input type=\"text\" name=\"search\" id=\"search\" placeholder=\"Search Titles, Authors, and Keywords\">\n              <input type=\"submit\" value=\"\" id=\"submitSearch\">\n          </div>\n          <div>\n            <a href=\"#\" data-dropdown=\"userDrop\" data-options=\"align:left\" >ImMember1</a>\n            <ul id=\"userDrop\" data-dropdown-content class=\"f-dropdown small\">\n              <li><a href=\"../user/bookShelves.html\">My Bookshelves</a></li>\n              <li><a href=\"#\">My Reviews</a></li>\n              <li><a href=\"#\">My Profile</a></li>\n              <li><a href=\"#\">Log Out</a></li>\n            </ul>   \n          </div>        \n        </header>\n      </div> <!-- Header End -->\n      <div class=\"row\"> <!-- Bookshelves -->\n        \n        <h1>My Bookshelves</h1>\n\n\n      </div> <!-- End Bookshelves -->\n\n\n  </div><!-- End Wrapper -->  \n\n    <footer class=\"row large-12  columns large-centered\">\n      <p>Created for WDD 2014&copy;</p>\n      <p>Acme Interactive does not have ownership of the publications listed, or the front cover images of books displayed. Reviews and information from <a href=\"http://www.amazon.com/\">Amazon</a></p>\n    </footer>\n\n\n    <script src=\"../js/vendor/jquery.js\"></script>\n    <script src=\"../js/foundation.min.js\"></script>\n    <script>\n      $(document).foundation();\n    </script>\n    <script src=\"../js/additional.js\"></script>\n  </body>\n</html>\n",
+			"file": "user/bookShelves.html",
+			"file_size": 2332,
+			"file_write_time": 130451646010000000,
+			"settings":
+			{
+				"buffer_size": 2341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "search.html",
+			"settings":
+			{
+				"buffer_size": 35512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 14237,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/additional.js",
+			"settings":
+			{
+				"buffer_size": 2814,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 51.0,
+		"history":
+		[
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/search.html",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/index.html",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/js/additional.js",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/js/foundation.min.js",
+		"/Users/hb/Documents/Websites/tests/schooltest/css/style.css",
+		"/Users/hb/Documents/Websites/tests/schooltest/index.html",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/js/motiongallery.js",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/css/foundation.css",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/robots.txt",
+		"/Users/hb/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/site/css/style.css",
+		"/Users/hb/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/hb/Documents/Homework/WDD/Work/Week 2/sublime/emmet.html",
+		"/Users/hb/Downloads/automod-1.0-1.2/README.md",
+		"/Users/hb/Documents/Websites/claremont/students/girls/atlanta/atlanta.html",
+		"/Users/hb/Documents/Websites/ComicShop/comics.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/index.css",
+		"/Users/hb/Documents/Websites/ComicShop/css/collectibles.css",
+		"/Users/hb/Documents/Websites/ComicShop/collectibles.html",
+		"/Users/hb/Documents/Websites/ComicShop/games.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/constant.css",
+		"/Users/hb/Documents/Websites/ComicShop/css/comic.css",
+		"/Users/hb/Documents/Websites/ComicShop/css/about.css",
+		"/Users/hb/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/hb/Documents/Websites/ComicShop/form.html",
+		"/Users/hb/Documents/Websites/ComicShop/index.html",
+		"/Users/hb/Documents/Websites/ComicShop/thankyou.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/form.css",
+		"/Users/hb/Documents/Websites/ComicShop/about.html",
+		"/Users/hb/Documents/Websites/ComicShop/css/games.css",
+		"/Users/hb/Documents/Websites/ComicShop/images/homebutton",
+		"/Users/hb/Documents/Websites/ComicShop/core.css",
+		"/Users/hb/Documents/Websites/ComicShop/back.png",
+		"/Users/hb/Documents/Websites/ComicShop/games.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"readMore",
+			"shelve",
+			"pricingFormats",
+			"h2",
+			"submit",
+			"starContain medium-3",
+			"a href=\"#\" class=\"memberName medium-12 small-6 columns text-center\"",
+			"a href=\"#\" class=\"memberName medium-12 columns text-center\"",
+			"<div class=\"medium-3 columns\" data-equalizer-watch>\n                        <p",
+			"div class=\"medium-6 columns\" data-equalizer-watch",
+			"buttonHold",
+			"starContain medium-4",
+			"div class=\"medium-2 columns\" data-equalizer-watch",
+			"buttonHold",
+			"border",
+			".review",
+			"stars",
+			"slim shelve",
+			"slim",
+			"pricingFormats",
+			"shelveMe",
+			"author",
+			"bookTitle",
+			"starContain",
+			"ul",
+			"44ff00",
+			"medium-1",
+			"statusdiv",
+			"img src=\"dynamicbook1.gif\"",
+			"h1",
+			"px",
+			"medium",
+			"large-3",
+			"large-12",
+			"cog",
+			"header",
+			"div",
+			"</li>",
+			"<li>",
+			"height",
+			"collectibles",
+			"Comics",
+			"images",
+			"card2.png",
+			"cards.png"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"starContain medium-3 small-6",
+			"a href=\"#\" class=\"memberName medium-12 small-6 columns\"",
+			"a href=\"#\" class=\"memberName medium-12 small-6 columns text-center\"",
+			"<div class=\"medium-3 small-6 columns\" data-equalizer-watch>\n                        <p",
+			"starContain medium-3",
+			"div class=\"medium-3 columns\" data-equalizer-watch",
+			"shelve",
+			"",
+			"<img src=\"img/books/plaguezone.jpg\" alt=\"Plague Zone\" />",
+			"small",
+			"large-3 medium-3",
+			"large-12 medium-12",
+			"article",
+			"",
+			"<li class=\"large-1 columns\">",
+			"comics",
+			"../images"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bookDetails/autumn.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15744,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15171,
+								15744
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "user/bookShelves.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1691,
+								1691
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3726,
+								3726
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 832.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "search.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2104,
+								2104
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2312.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/additional.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2814,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2391,
+								2391
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 365.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.531095719538,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "wdd.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"js/foundation.min.js"
+			],
+			[
+				"",
+				"css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

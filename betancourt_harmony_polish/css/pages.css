@@ -1,0 +1,113 @@
+/**********************************/
+/************* PAGES *************/
+/* TOC: Index, Search, Details, Dropdown */
+
+/*********** INDEX ***************/
+.linkCloud  a {
+    line-height: 2em;
+}
+/*        BOOK LISTS            */
+.bookLists > div > p:first-of-type {
+    vertical-align: bottom;
+}
+.bookLink a > img, .bookCover a > img {
+    border: 2px solid transparent; /* Keep transparent to maintain sizing yet invisible	*/
+}
+.bookLink a:hover > img, .bookCover a:hover > img {
+    border-color: #44ff00; 
+}
+.scrollList {
+    overflow-x: scroll;
+    overflow-y: hidden;	
+}
+/*        Reveal Modals           */
+dialog, .reveal-modal {
+    background-color: #000;
+}
+.reveal-modal ul {
+    width: 21em;
+}
+/********* SEARCH RESULTS ***************/
+#filter {
+    background-image: url('../img/buttons/filter.png');
+    height: 31px;
+    width: 101px;
+}
+#filter:hover {
+    background-image: url('../img/buttons/filterhover.png');
+}
+#toggleResults {
+    background-image: url('../img/buttons/toggleLists.png');
+    height: 32px;
+    width: 132px;
+}
+.star {
+    background: url('../img/buttons/starEmpty.png');
+    height: 20px;
+    width: 20px;	
+}
+.starGold{
+    background-image: url('../img/buttons/starGold.png');
+}
+.bookCover img {
+    box-shadow: 0 0 9px 0 rgba(129, 254, 0, 0.13);
+    width: 120px;
+}
+.bookDescrip p, .bookDescrip span {
+    letter-spacing: 1px;	
+}
+ul.pagination li.current a {
+    background-color: #F4A147;
+}
+ul.pagination li:hover a, ul.pagination li a:focus {
+    background-color: #9fff94 ;
+}
+.bookDetails .button {
+    padding: 0;
+}
+.readMore {
+    white-space: nowrap;
+}
+.invisible {	
+    visibility: hidden;
+}
+/********** DETAILS PAGE ***************/
+table.priceTable {
+    background: transparent;
+    border: none;
+}
+table.priceTable tr.even, table.priceTable tr.alt, table.priceTable tr:nth-of-type(2n) {
+    background: transparent;
+}
+table.priceTable tbody {
+    left: -0.5em;
+    padding: 0;
+}
+.memberName {
+    padding: 0.5em 0 1em;
+}
+.reviewText {
+    padding-bottom: 1em;
+}
+.reviewText .readMore {
+    width: 100%;
+}
+.review > div:first-child > div:nth-child(2) > p, .review > div:first-child > div:nth-child(3) a {
+    top: 0.7em;
+}
+.review > div:nth-child(2) img {
+    border: 1px solid #070707;
+}
+/********** USER DROPDOWN ***************/
+
+.f-dropdown.open {
+    background: none repeat scroll 0 0 #000000;
+    border-color: #9FFF94;
+}
+.f-dropdown li:hover, .f-dropdown li:focus {
+    background: none repeat scroll 0 0 #9FFF94;
+}
+/************* MISC *************/
+#filter, #toggleResults, a.cog, #submitSearch, .star {
+    background-repeat: no-repeat;
+}

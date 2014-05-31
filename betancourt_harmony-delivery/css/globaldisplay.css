@@ -1,0 +1,309 @@
+/**********************************/
+/************* GLOBAL *************/
+/* TOC: Global Elements, Header, Font/Typography, Margins */ 
+body {
+    background: url('../img/bg.jpg') repeat;
+}
+#wrapper {
+    background-color: #3D4140; /* Old School */
+    background-color: rgba(0, 0, 0, .38);
+    border-radius: 20px;
+    padding-top: 1%;
+}
+ul {
+    list-style-image: url('../img/bullet.png');
+}
+a.cog {
+    background: url('../img/buttons/cog.png');
+    height: 25px;
+    width: 26px;
+    overflow: hidden; /* Needed to hide button text for screen readers*/
+    padding-top: 30px; /* Needed to hide button text for screen readers*/
+    float: right;
+}
+a.cog:hover {
+    background-image: url('../img/buttons/coghover.png');
+}
+a.cog:visited {
+    background-image: url('../img/buttons/cogvisited.png');
+}
+.button {
+    background: #9fff94; /* Old browsers */ /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#9fff94), color-stop(100%,#6aff6f), color-stop(100%,#6aff6f)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #9fff94 0%,#6aff6f 100%,#6aff6f 100%); /* Chrome10+,Safari5.1+ */ /* Opera 12+ */ /* IE10+ */
+    background: -webkit-radial-gradient(center, ellipse, #9fff94 0%, #6aff6f 100%, #6aff6f 100%);
+    background: radial-gradient(ellipse at center,  #9fff94 0%,#6aff6f 100%,#6aff6f 100%); /* W3C */
+    border-radius: 10px;
+    padding: .3em 1em;
+}
+.button:hover, .accordion dd > a:hover  {
+    background: #dcffcd; /* Old browsers */ /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#9fff94), color-stop(100%,#dcffcd)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #9fff94 0%,#dcffcd 100%); /* Chrome10+,Safari5.1+ */ /* Opera 12+ */ /* IE10+ */
+    background: -webkit-radial-gradient(center, ellipse, #9fff94 0%, #dcffcd 100%);
+    background: radial-gradient(ellipse at center,  #9fff94 0%,#dcffcd 100%); /* W3C */
+}
+.slim {
+    padding: 0 1em;
+}
+.shelve {
+    padding: .2em .2em 0 .3em;
+}
+.shelve > span {
+    bottom: 18px;
+    left: 5px;
+}
+.share {
+    padding: .1em .2em 0;
+}
+.screenRead {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+span.example {
+    font-style: oblique;
+}
+span.chosen {
+    float: right;
+}
+li .warningHighlight:hover {
+    background-color: #E86005;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
+.scrollList > ul {
+    left: 0;
+}
+.arrow {
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 10%;
+    height: 100px;
+}
+.arrow.leftclick {
+    background-image: url('../img/arrow_left.png');
+}
+.arrow.rightclick {
+    background-image: url('../img/arrow_right.png');
+}
+/************* UNIVERSAL HEADER *************/
+#wrapper > .row:nth-child(1) header {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 0;
+}
+#wrapper > .row:nth-child(1) header > div {
+    display: inline-block;
+    height: 4em;
+    vertical-align: top;
+}
+	/* Logo */
+#wrapper > .row:nth-child(1) header > div:first-child{
+    width: 57%;
+}
+#logo {
+    width: 45%;
+}
+#logo img {
+    height: 48px;
+    width: 48px;
+}
+#logo span {
+    bottom: 7%;
+    left: 25.3em;
+}	
+/*        SEARCH            */
+#wrapper > .row:nth-child(1) header > div:nth-child(2) { 
+    width: 28%;
+}
+input#search {
+    border: 3px solid #DAD5D5;
+    border-radius: 30px;
+    height: 35px;
+    top: 15%;
+}
+#submitSearch {
+    background:transparent url('../img/buttons/searchButton.png');
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    right: 1.25%;
+    top: 20%;
+}
+	/* Sign in */
+#wrapper > .row:nth-child(1) header div:last-child {
+    width: 14%;
+}
+a#headLink {
+    position: relative;
+    top: 1.5em;
+}
+/************* FONTS *************/
+body, .button, .accordion dd > a  {
+    font-family: 'Comfortaa';
+}
+h1, h2, h3, h4, h5, h6, input#search , .bookTitle {
+    font-family: 'Permanent Marker', serif;
+    letter-spacing: 2px;
+} 
+#logo {
+    font-family: 'Joti One';
+}
+/*        COLOR           */
+body, .reveal-modal label, .priceTable td, .ucpHead h3 {
+    color: #fff;
+}
+a, .bookLists h3, .listBar > a > h3, .f-dropdown li a, .accordion dd > a , .accordion dd.active > a, .reveal-modal .close-reveal-modal {
+    color: #bffb87;
+}
+a:hover, .bookLists a:hover h3, .listBar > a:hover > h3, .f-dropdown li a:hover, a:focus  {
+    color: #44ff00;
+}
+a:visited, .bookLists a:visited h3, .listBar > a:visited > h3, .f-dropdown li a:visited {
+    color: #dcffcd;
+}
+input#search {
+    color: #292828;
+}
+h1, h2, h3, h4, h5, h6 , #logo, .pricingFormats p {
+    color: #E86005;
+    text-shadow: 0 0 3px #000000;
+}
+.button, .button:hover,  a.button, .f-dropdown li:hover a, ul.pagination li.current a  {
+    color: #000000;
+
+}
+.accordion dd > a:hover, .warningHighlight:hover {
+    color: #000;
+}
+/*        SIZES            */
+#logo {
+    font-size: 2.2em;
+}
+h1, .bookHeading .bookTitle  {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.75em;
+}
+h3, .button, .bookTitle {
+    font-size: 1.5em;
+}
+.linkCloud  a  {
+    font-size: 1.3em;
+}
+.bookLists > a, .reveal-modal .close-reveal-modal {
+    font-size: 1.1em;	
+}
+body, .bookDescrip p, .reviewText p  {
+    font-size: .9em;
+}
+footer p, .bookDetails > .reviewFrom, .memberName, span.example {
+    font-size: .8em;
+}
+.shelve > span {
+    font-size: .5em;
+}
+#logo span {
+    font-size: .4em;
+}
+input#search {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+#wrapper > .row:nth-child(1) header div:last-child { 
+    font-size: 14px;
+}
+/*        ALIGN           */ 
+.f-dropdown.open, .review > div:nth-child(1) > div:nth-child(2), .reveal-modal h2, .reveal-modal h3, .reveal-modal p, .bookLists h3, .linkCloud, footer {
+    text-align: center;
+}
+.buttonHold, #logo span, #wrapper > .row:nth-child(1) header div:last-child {
+    text-align: right;
+}	
+/************* MARGINS *************/
+#wrapper {
+    margin: 2% auto;
+}
+#coa > .left { /* LOGO */
+    margin: 5% 5% 0;
+}
+a.cog {
+    margin: 4% 6% 0 0 ;
+}
+footer p {
+    margin: 0 auto;
+}
+.listBar > p {
+    margin: .8em 0 0;
+}
+.bookLink {
+    margin: 0 2.8% 0 0;
+}
+.reveal-modal ul {
+    margin: 0 auto 3%;
+}
+#signIn p:nth-of-type(1) {
+    margin: 1% auto;
+}
+table.priceTable {
+    margin: 0;
+}
+#wrapper > .row:nth-child(2) > .large-4 { /* COA */
+    margin-top: 5%;
+}
+.searchHead h3 {
+    margin-top: 0;	
+}
+.bookInfo {
+    margin-top: 1em;
+}
+#logo img {
+    margin-right: 1%;
+    vertical-align: text-top;
+}
+.linkCloud  a {
+    margin-right: 2.5em;
+}
+.share {
+    margin-right: 5%;
+}
+#wrapper > .row, .bookLists > div {
+    margin-bottom: 3%;	
+}
+h1, h2, h3, h4, h5, h6 , #logo, input#search, .reveal-modal p, .pricingFormats, #wrapper > .bookHeading, .bookHeading > div:first-of-type > p, .review div:nth-child(2) p, input[type="checkbox"]  {
+    margin-bottom: 0;
+}
+ul li, .bookLists h3, .bookDetails > p:first-of-type, .bookTitle, .pagination {
+    margin-bottom: 1%;
+}
+.reveal-modal label {
+    margin-bottom: 5%;
+}
+.bookCover img {
+    margin-bottom: 1em;
+}
+.ucpLists > div {
+    margin-bottom: 3%;	
+}
+#coa ul {
+    margin-left: 8%;
+}
+/************* DISPLAY/POSITION *************/
+a.cog, #filter, #toggleResults, .pricingFormats p  {
+    display: block;
+}
+#coa section:last-of-type, .bookLink, .scrollList li, .bookTitle, .starContain, .author, .star   {
+    display: inline-block;
+}
+div, a[data-dropdown], .review > div:first-child > div:nth-child(2) > p, .review > div:first-child > div:nth-child(3) a, #wrapper > .row:nth-child(1) header, #wrapper > .row:nth-child(1) header > div, #wrapper > .row:nth-child(1) header input#search, .scrollList > ul {
+    position: relative;
+}
+.shelve > span, table.priceTable tbody, #logo span, #submitSearch {
+    position: absolute;
+}

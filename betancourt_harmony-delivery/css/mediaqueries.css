@@ -1,0 +1,199 @@
+/********************************************/
+/************** MEDIA QUERIES ***************/
+/*   TOC: Small <40 em, Medium < 64em       */
+
+/********** SMALL ***************/
+@media only screen and (max-width:40em){
+/*        Multiple Selectors          */
+    #wrapper > .row:nth-child(1) header div:first-child, #wrapper > .row:nth-child(1) header > div:nth-child(2), #wrapper > .row:nth-child(1) header div:last-child {
+        height: 2.4em;
+    }
+    .bookLists > div, .ucpLists > div {
+        margin-bottom: 10%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 5%;
+    }
+/*        Font           */
+    #logo, .listBar a h3 {
+        font-size: 1.5em;
+    }
+    .listBar p {
+        font-size: .75em;
+    }
+    #coa h1 {
+        line-height: 1em;
+    }
+    .pricingFormats .row p {
+        font-size: 0.7em;
+    }
+    .bookReviews > h3 {
+        font-size: 2em;
+    }
+    .review > div:first-of-type > div:nth-child(2) p {
+        font-size: .9em;
+    }
+    .linkCloud a {
+        font-size: 1.1em;
+    }
+    #wrapper > .row:nth-child(1) header div:last-child {
+        font-size: 12px;
+    }
+    .arrow {
+        position: absolute;
+        top: 50%;
+        width: 15%;
+    }
+    .arrow.leftclick {
+        left: -3%;
+    }
+    .arrow.rightclick {
+        background-image: url('../img/arrow_right.png');
+        right: 1%;
+    }
+    .scrollList{
+        margin-left: 8%;
+        width: 85%;
+    }
+/*        Position           */
+    .shelveMe, #wrapper > div:nth-child(3) > article > div:nth-child(3), .searchHead > div > div:last-of-type, .review > div:nth-child(2) img {
+        position: relative;
+    }	
+/*       Header           */	    
+    #wrapper > .row:nth-child(1) header > div  {
+        display: block;      
+    }
+    #wrapper > .row:nth-child(1) header > div:first-child {
+        width: 100%;
+    }
+    #logo img {
+        height: 30px;
+        width: 30px;
+    }	
+    #logo span {
+        bottom: -2%;
+        left: 23.1em;
+    }
+    #wrapper > .row:nth-child(1) header div:last-child {
+        margin: 0 0 10px;
+        text-align: center;
+        width: 100%;
+    }
+    #wrapper > .row:nth-child(1) header > div:nth-child(2) {
+        width: 94%;
+    }
+    #submitSearch {
+        right: 1%;
+    }
+    .review h3 {
+        font-size: 1.3em;
+        text-align: center;
+        margin-bottom: 8%;
+    }
+/*        Index           */
+    .listBar a h3 {
+        text-align: left;
+    }
+    #coa section:last-of-type {
+        margin-left: 5%;	
+    }
+    #coa .left {
+        width: 38%;
+    }
+    .linkCloud a {
+        margin-right: 1.5em;
+    }
+/*      Search          */
+    .shelveMe {
+        top: 1em;
+    }
+    #wrapper > div:nth-child(3) > article > div:nth-child(3) { /* Read Reviews Button positioning */
+        left: 3em;
+        top: -3.3em;
+    }
+    #wrapper > div:nth-child(3) > article > div:nth-child(3) a { /* Read Reviews padding adjust */
+        font-size: 1.4em;
+        line-height: 1;
+        min-height: 41.3px;
+        vertical-align: middle;
+    }
+    .searchHead > div > div:last-of-type {
+        top: -7.4em;
+    }
+    .bookTitle {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 1em;
+        width: 100%;
+    }
+    .bookCover { /* Because image is 100%, remove padding and shift left for better sizing */
+        left: 3%;
+        padding: 0; 
+    }	
+    .buttonHold {
+        text-align: center;
+    }
+    .starContain {
+        vertical-align: top;
+    }
+    table.priceTable tbody {
+    	left: 42%;
+    	margin-top: -46%;
+    }	
+    .star {
+    	background-size: contain;
+    }
+    .review > div:nth-child(2) img {
+        margin-left: 1em;
+        top: -2.4em;
+        width: 32%;
+    }
+    .reviewText {
+        margin-top: -2em;
+    }
+    .review .starContain {
+        left: -50%;
+        top: -1.3em;
+    }
+    .review .star {
+        width: 1em;
+    }	
+/*        User Control Panel           */
+    .ucpHead h1 {
+        margin-bottom: 0;
+    }
+}
+/********** MEDIUM ***************/
+@media only screen and (min-width:40.063em) and (max-width: 64em) {
+    #wrapper > .row:nth-child(1) header div:first-child, #wrapper > .row:nth-child(1) header > div:nth-child(2), #wrapper > .row:nth-child(1) header div:last-child {
+        height: 3.5em;
+    }
+    #wrapper > .row:nth-child(1) header > div:first-child {
+        width: 50%;
+    }
+    #wrapper > .row:nth-child(1) header > div:nth-child(2) {
+        width: 33%;
+    }
+    #wrapper > .row:nth-child(1) header div:last-child {
+        width: 15%;
+    }
+    #logo {
+        font-size: 1.7em;
+    }
+    #logo span {
+        bottom: 22%;
+    }
+    #coa section:last-of-type {
+        margin-left: 5%;	
+    }
+    #coa h1 {
+        line-height: 1em;
+    }
+    .star {
+        width: 16px;
+        background-size: 16px 16px;
+    }
+}
+
+
+

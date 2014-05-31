@@ -12,9 +12,9 @@
 	 		// Get ID for list each time
 	 	var thisId = $(this).children('ul').attr('id'); 
 	 		// Use the id to find how many children the list has
-	 	var containMe =  $('#' + thisId).children().size();
+	 	var contain =  $('#' + thisId).children().size();
 	 		// Container size is the number of children times the width wanted for each
-	 	var containSize = elemWidth * parseInt(containMe);
+	 	var containSize = elemWidth * parseInt(contain, 10);
 	 		// Make it so 
 	 	$('#' + thisId).css('width', containSize);
                 $(this).children('ul').css('left', 'auto');
@@ -23,25 +23,26 @@
   // Gallery Slider
         $(".scrollList").before('<a href="#" class="arrow leftclick"><span class="screenRead">Left</span></a>').after('<a href="#" class="arrow rightclick"><span class="screenRead">right</span></a>').css({"display":"inline-block", "width":"80%", "overflow": "hidden"});
             var times = 1;
-        $(".arrow").click(function(e) {              
+            var checkMe = 0;
+        $(".arrow").click(function(e) {
             var thisScrollList = $(this).siblings('.scrollList');
             var viewPort = $(thisScrollList).width();
             var thisUl = $(thisScrollList).children('ul');
             var totalWidth = $(thisUl).width();
-            var totalMovement = parseInt(totalWidth - viewPort); // Total amount of movement possible 
-            var checkMe = parseInt($(thisUl).css('right'));
-            var move = elem * times; 
+            var totalMovement = parseInt(totalWidth - viewPort); // Total amount of movement possible            
+            var move = elem * times;
             if($(this).hasClass('rightclick') && totalMovement - checkMe > 0){
                    $(thisUl).css('right', move + 'px' );
                    if(totalMovement - checkMe > elem ){ // Only change times if there is still more room to move
                     times +=1 ; 
-                   }
+                   }                  
             } 
-            if($(this).hasClass('leftclick') && checkMe > 0 ){               
+            if($(this).hasClass('leftclick') && checkMe > 0 ){  
                 var newMove = move - elem; // Change movement to reflect single step back
                    $(thisUl).css('right', newMove + 'px' );  
                    times -=1 ; // Change times to prevent skipping when going right                  
             } 
+            checkMe = parseInt($(thisUl).css('right'));
             e.preventDefault();
         });
   // Image Preload
@@ -144,7 +145,7 @@
   // When Filter is closed, tally results and change search text 
   $(document).on('close', '[data-reveal]', function () {  
       $("#searchResults").text($("#filterResults" ).text());
-      if(parseInt($('#currentFilter').text()) > 0){
+      if(parseInt($('#currentFilter').text()) > 0, 10){
         $("#filtered").removeClass('hide');
       } else { $("#filtered").addClass('hide');}
   });
